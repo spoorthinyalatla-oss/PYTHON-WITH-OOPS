@@ -1,0 +1,14 @@
+class Student:
+    def exam(self):
+        print("Student writing exam")
+class Student1(Student):
+    def exam(self):
+        print("Student1 writing exam")
+    def result(self):
+        self.exam()
+
+Std=Student()
+Std1=Student1()
+
+Std.exam()
+Std1.result()
