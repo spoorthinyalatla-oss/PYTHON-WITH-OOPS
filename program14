@@ -1,0 +1,22 @@
+class Student:
+    name = "N.spoorthi"
+    roll_no = 228225733137
+    telugu = 95
+    hindi = 65
+    english = 80
+    def calculate_result(self):
+        total_marks = self.telugu + self.english + self.hindi
+        print(f"Total Marks: {total_marks}")
+        
+        average = total_marks / 3
+        print(f"Average: {average:.2f}")
+        if average >= 80:
+            grade = "A"
+        elif average >= 60:
+            grade = "B"
+        else:
+            grade = "Fail"
+            
+        print(f"Grade: {grade}")
+s = Student()
+s.calculate_result()
