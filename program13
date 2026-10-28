@@ -28,7 +28,6 @@ class TeachingAssistant(Faculty, Student):
         self.show_student_details()   
         print(f"Assigned Course: {self.course}")
 if __name__ == "__main__":
-    # Create an instance of the hybrid class
     ta = TeachingAssistant(name="Alex", employee_id="F908", student_id="S1024", course="Python 101")
     print("--- Teaching Assistant Details ---")
     ta.show_ta_details()
