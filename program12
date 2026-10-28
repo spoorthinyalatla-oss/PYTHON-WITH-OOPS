@@ -1,0 +1,17 @@
+class Father:
+    def work(self):
+        print("father working in it")
+class child1(Father):
+    def read(self):
+        print("child 1 readint Books")
+class child2(Father):
+    def playing(self):
+        print("child 2 playing games")
+    
+c1=child1()
+c1.work()
+c1.read()
+
+c2=child2()
+c2.work()
+c2.playing()
