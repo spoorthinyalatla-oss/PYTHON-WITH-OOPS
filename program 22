@@ -6,4 +6,4 @@ class Car:
         print(f"{self.color} {self.brand}")
 
 car = Car("Tata", "Blue")
-car.display()
+car.display() 
